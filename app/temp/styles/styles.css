@@ -466,11 +466,11 @@ img {
 }
 
 a {
-  color: #d59541;
+  color: #000099;
 }
 
 .large-hero {
-  border-bottom: 10px solid #000099;
+  border-bottom: 10px solid #000;
   position: relative;
 
 }
@@ -499,7 +499,7 @@ a {
 
 .large-hero__title {
     font-weight: 300;
-    color: #000099;
+    color: #000;
     margin: 0;
     font-size: 2.4rem;
 
@@ -515,7 +515,7 @@ a {
 
 .large-hero__subtitle {
     font-weight: 300;
-    color: #000099;
+    color: #000;
     font-size: 1.5rem;
     margin: 0;
 
@@ -547,7 +547,7 @@ a {
   }
 
 .btn {
-  background-color: #000099;
+  background-color: #000;
   color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
@@ -556,7 +556,7 @@ a {
 }
 
 .btn--orange {
-    background-color: #d59541;
+    background-color: #000099;
   }
 
 .btn--large {
@@ -666,7 +666,7 @@ a {
   }
 
 .page-section--blue {
-    background-color: #000099;
+    background-color: #000;
     color: #FFF;
   }
 
@@ -684,7 +684,7 @@ a {
 .headline {
   font-size: 1.9rem;
   font-weight: 300;
-  color: #000099;
+  color: #000;
 }
 
 @media (min-width: 530px) {
@@ -699,7 +699,7 @@ a {
   }
 
 .headline--orange {
-    color: #d59541;
+    color: #000099;
   }
 
 .headline--small {
@@ -910,7 +910,7 @@ a {
   }
 
 .section-title--blue {
-    color: #000099;
+    color: #000;
   }
 
 .section-title--less-margin {
@@ -1009,7 +1009,7 @@ a {
   }
 
 .testimonial__title {
-    color: #000099;
+    color: #000;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
@@ -1017,7 +1017,7 @@ a {
   }
 
 .testimonial__subtitle {
-    color: #d59541;
+    color: #000099;
     text-align: center;
     font-weight: 400;
     font-size: 0.9375rem;
@@ -1108,7 +1108,7 @@ Instead edit gulp/templates/sprite */
   }
 
 .site-footer {
-  background-color: #000099;
+  background-color: #000;
   color: #FFF;
   padding: .5rem 0;
   text-align: center;
@@ -1139,18 +1139,18 @@ Instead edit gulp/templates/sprite */
 }
 
 .site-header--is-expanded {
-    background-color: rgba(0,0,153, .55);
+    background-color: rgba(0,0,0, .55);
   }
 
 @media (min-width: 800px) {
 
 .site-header {
     position: fixed;
-    background-color: rgba(0,0,153, .3)
+    background-color: rgba(0,0,0, .8)
 }
 
     .site-header--dark {
-      background-color: rgba(23, 51, 72, .85);
+      background-color: #000;
     }
   }
 
@@ -1173,7 +1173,7 @@ Instead edit gulp/templates/sprite */
     transition: transform .3s ease-out, -webkit-transform .3s ease-out;
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
-    background-color: #000099;
+    background-color: #000;
     padding: 25px 36px;
   }
 
@@ -1364,7 +1364,7 @@ Instead edit gulp/templates/sprite */
     display: block;
     padding: 5px 8px;
     font-size: .8rem;
-    background-color: rgba(0,0,153, .5);
+    background-color: rgba(0,0,0, .5);
   }
 
 @media (min-width: 800px) {
@@ -1441,12 +1441,12 @@ Instead edit gulp/templates/sprite */
             transform: scaleX(1.2);
     -webkit-transform-origin: 100% 0;
             transform-origin: 100% 0;
-    color: #000099;
+    color: #000;
     cursor: pointer;
   }
 
 .modal__close:hover {
-      color: #d59541;
+      color: #000099;
     }
 
 .social-icons {
@@ -1454,7 +1454,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons__icon {
-    background-color: #d59541;
+    background-color: #000099;
     display: inline-block;
     margin: 0 5px 5px 5px;
     width: 33%;
