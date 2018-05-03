@@ -19,7 +19,7 @@ gulp.task('previewDist', function() {
 gulp.task('deleteDistFolder', ['icons'], function() {
   return del("./docs");
 });
-
+// this is for future build and add more files to docs(dist) folder omair 
 gulp.task('copyGeneralFiles', ['deleteDistFolder'], function() {
   var pathsToCopy = [
     './app/**/*',
