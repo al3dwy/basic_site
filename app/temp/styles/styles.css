@@ -466,7 +466,7 @@ img {
 }
 
 a {
-  color: #000099;
+  color: #118AF4;
 }
 
 .large-hero {
@@ -556,7 +556,7 @@ a {
 }
 
 .btn--orange {
-    background-color: #000099;
+    background-color: #118AF4;
   }
 
 .btn--large {
@@ -699,7 +699,7 @@ a {
   }
 
 .headline--orange {
-    color: #000099;
+    color: #118AF4;
   }
 
 .headline--small {
@@ -1006,6 +1006,7 @@ a {
     position: relative;
     top: -80px;
     border: 6px solid rgba(255, 255, 255, .8);
+    
   }
 
 .testimonial__title {
@@ -1017,7 +1018,7 @@ a {
   }
 
 .testimonial__subtitle {
-    color: #000099;
+    color: #118AF4;
     text-align: center;
     font-weight: 400;
     font-size: 0.9375rem;
@@ -1028,11 +1029,11 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-e79e95cc.svg');
+      background-image: url('../../assets/images/sprites/sprite-a1320bac.svg');
     }
 
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-e79e95cc.png');
+      background-image: url('../../assets/images/sprites/sprite-a1320bac.png');
     }
 
 .icon--clear-view-escapes {
@@ -1376,7 +1377,7 @@ Instead edit gulp/templates/sprite */
   }
 
       .primary-nav a.is-current-link {
-        color: #fabb69;
+        color: #118AF4;
       }
   }
 
@@ -1446,7 +1447,7 @@ Instead edit gulp/templates/sprite */
   }
 
 .modal__close:hover {
-      color: #000099;
+      color: #118AF4;
     }
 
 .social-icons {
@@ -1454,7 +1455,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons__icon {
-    background-color: #000099;
+    background-color: #118AF4;
     display: inline-block;
     margin: 0 5px 5px 5px;
     width: 33%;
@@ -1478,3 +1479,53 @@ Instead edit gulp/templates/sprite */
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
     }
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+}
+
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+.video-container video.fillWidth {
+    width: 100%;
+}
