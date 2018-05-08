@@ -1,0 +1,13 @@
+<ul>
+  <li class="lang" key="home">Home</li>
+
+  <li class="lang" key="home"><a href="#our-beginning" id="our-beginning-link">بدايتنا</a></li>
+  <li class="lang" key="about"><a href="#features" id="features-link">الخصائص</a></li>
+  <li class="lang" key="contact"><a href="#testimonials" id="testimonials-link">الشهادات</a></li>
+</ul>
+
+<li class="lang" key="home">Home</li>
+
+
+<button class="translate" id="en">English</button>
+<button class="translate" id="ar">عربي</button>

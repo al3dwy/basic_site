@@ -40,3 +40,22 @@
 .video-container video.fillWidth {
     width: 100%;
 }
+
+.header-overlay {
+  
+  height: 30vh;
+  width:100vw;
+  position:absolute;
+  top:0;
+  left:0;
+  background-color:#118AF4;
+  z-index:0;
+  opacity:0.85;
+
+}
+
+.header-overlay {
+  @mixin atMedium {
+  height: 100vh;
+    }
+}

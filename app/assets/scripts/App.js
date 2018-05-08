@@ -10,6 +10,8 @@ new RevealOnScroll($(".testimonial"), "60%");
 var stickyHeader = new StickyHeader();
 var modal = new Modal();
 
+var btnn = document.getElementById("btnn");
+
 // VIDEO
 
 //jQuery is required to run this code
@@ -75,3 +77,6 @@ function scaleBannerVideoSize(element){
 
     });
 }
+   
+    
+    
